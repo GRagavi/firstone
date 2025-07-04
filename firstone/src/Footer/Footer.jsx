@@ -1,6 +1,7 @@
+import styles from './Footer.module.css';
 function Footer(){
     return (
-        <footer>
+        <footer className={styles.footercss}>
             <p>© 2023 All rights reserved</p>
         </footer>
     );
